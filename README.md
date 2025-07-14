@@ -76,16 +76,14 @@ mnist-digit-recognizer/
 
 ### NumPy Model
 ```bash
-python mnist_numpy.py
+python main.usingNumPy.py
 ````
 
 ### TensorFlow Model
 
 ```bash
-python mnist_tensorflow.py
+python main_usingtf.py
 ```
-
-Ensure that `mnist_train.csv` and `mnist_test.csv` are in the same directory.
 
 ---
 
