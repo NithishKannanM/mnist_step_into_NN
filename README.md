@@ -57,7 +57,7 @@ mnist-digit-recognizer/
 | Metric     | NumPy Model | TensorFlow Model |
 |------------|-------------|------------------|
 | Accuracy   | ~88%        | ~92%             |
-| Epochs     | 400         | 20               |
+| Epochs     | 1000        | 5                |
 | Optimizer  | Manual GD   | Adam             |
 
 ---
@@ -95,10 +95,10 @@ MNIST dataset downloaded from [Kaggle](https://www.kaggle.com/datasets/oddration
 
 ## 📌 Future Improvements
 
-* Add a web-based UI to upload digit images and test predictions
-* Save trained model in `.pkl` and load via API
-* Experiment with CNN (Convolutional Neural Network)
-* Extend to Fashion-MNIST
+* Need to add a web-based UI to upload digit images and test predictions
+* Saving trained model in `.pkl` and load via API
+* Experimenting with CNN (Convolutional Neural Network)
+* Extending to Fashion-MNIST
 
 ---
 
